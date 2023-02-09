@@ -54,3 +54,90 @@ p {
     background-image: url(images/about-cover.png);
     background-repeat: no-repeat;
 }
+
+.recipes {}
+
+.center-recipes {
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+}
+
+.center-recipes h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.center-recipes p {
+    text-align: justify;
+}
+
+.card {
+    width: 300px;
+    background-color: #e5f3f3;
+    margin: 40px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card-body {}
+
+.card-title {
+    font-size: 20px;
+    margin: 0;
+    padding: 10px;
+}
+
+.card-text {}
+
+.card-placement {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.info-container {
+    margin: 50px;
+}
+
+.main-info {
+    display: flex;
+    padding: 18px;
+    width: 80%;
+    margin-left: 100px;
+    box-shadow: 10px 10px 40px #ddd;
+    border-radius: 15px;
+}
+
+.subscriber {
+    margin: auto;
+    padding: 10px 80px;
+}
+
+.subscriber h2 {
+    font-size: 40px;
+}
+
+
+.footer {
+    background-color: #9b2500;
+    padding: 20px;
+
+}
+
+.footer h4 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+}
+
+.footer p {
+    text-align: center;
+    color: #ffffff;
+}
